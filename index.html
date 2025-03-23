@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hitung Luas & Keliling Persegi</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>📏 Kalkulator Persegi</h1>
+    <form id="square-form">
+      <div class="input-group">
+        <label for="side">Masukkan Panjang Sisi:</label>
+        <input type="number" id="side" placeholder="Contoh: 5" required />
+      </div>
+      <button type="submit" class="btn">Hitung</button>
+    </form>
+
+    <div id="result" class="hidden">
+      <h2>Hasil Perhitungan:</h2>
+      <div class="result-box">
+        <p>Luas: <span id="area-result">-</span></p>
+        <p>Keliling: <span id="perimeter-result">-</span></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
